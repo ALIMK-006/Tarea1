@@ -9,11 +9,12 @@ package com.mycompany.entornodesarrollo;
  *
  * @author meka
  */
-﻿package errores1Blog;
+
 
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 
 
@@ -26,7 +27,7 @@ public class Errores1Blog {
 
 
 
-     * @param args the command line arguments
+     // @param args the command line arguments
 
 
     
@@ -41,7 +42,7 @@ public class Errores1Blog {
 
             
             
-            BufredReader bufer = new BufferedReader(new ImputStreamReader());
+            BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
             String entrada;
             
             System.out.println("Escribe el valor de x: ");
